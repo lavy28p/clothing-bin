@@ -4,7 +4,7 @@ Clothing BIN website supports independent fashion designers to sell their produc
 # Schema
 
 
-Schema for SignUp and Signin
+SignUp/Signin Schema for User
 ```JSON
 const user = new User({
       email,
@@ -12,7 +12,7 @@ const user = new User({
     })
 ```
     
-Schema for Product
+Product Schema
 ```JSON
 const Product = new Schema(
     {
