@@ -1,8 +1,11 @@
 # clothing-bin
 
 
-# Schema
+# Overview
 
+Clothing BIN website supports independent fashion designers to sell their products. The app makes the whole process easy by helping users connect directly with makers to find something extraordinary
+
+# Schema
 
 SignUp/Signin Schema for User
 ```JSON
@@ -42,10 +45,6 @@ const Product = new Schema(
 ![image](https://user-images.githubusercontent.com/84349667/126213997-c70a3c0d-3597-43df-9bbf-21699228f97d.png)
 
 
-
-# Overview
-
-Clothing BIN website supports independent fashion designers to sell their products. The app makes the whole process easy by helping users connect directly with makers to find something extraordinary
 
 # MVP
 
