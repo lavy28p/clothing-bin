@@ -66,3 +66,34 @@ const Product = new Schema(
 
 1. Add more CSS styling
 2. On signup page, add functionality to confirm password
+
+## Project Schedule
+|  Day  | Deliverable | Status |
+|-------|-------------| -------|
+|July 19| Design / Wireframes/ Timeframes | Pending
+|July 19| Project Approval | Pending
+|July 20| Work with Auth functionality | Not Started
+|July 21| Work with Backend setup and functionality| Not Started
+|July 22| Work with Frontend setup and functionality | Not Started
+|July 26| MVP  | Not Started          
+|July 28| Presentations/Project Submission | Not Started
+
+
+## Timeframes
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --------- | :------: | :------------: | :-----------: | :---------: |
+| Initial layout setup | H | 2hrs| 
+| Auth functionality | H| 4hrs| 
+| Auth functionality restrictions for user | H| 2hrs| 
+| Backend setup | H| 3hrs| 
+| CRUD operations | H | 3hrs|  
+| Deploy in MongoDb | H | 1hrs|  
+| Frontend setup | H | 5hrs|
+| Work on Links | H | 2hrs|
+| Deploy in Netlify | M| 2hrs| 
+| Debugging | H | 4hrs| 
+| Render results | H | 4hrs| 
+| Post MVP features | M | 4hrs|
+| General Research | M | 3hrs|
+| Add additional CSS look and feel to all components | M | 3hrs| 
+| Total | H | 42hrs| 
