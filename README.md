@@ -26,6 +26,9 @@ const Product = new Schema(
 ```
 
 # Whimsical Diagram
+
+![image](https://user-images.githubusercontent.com/84349667/126210996-d7639675-c9bc-4ded-872a-9a977c9a0904.png)
+
 # Overview
 # MVP
 # Post-MVP
