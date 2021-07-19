@@ -28,6 +28,9 @@ const Product = new Schema(
 )
 ```
 
+# Figma 
+https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
+
 # Whimsical Diagram
 
 ![image](https://user-images.githubusercontent.com/84349667/126210996-d7639675-c9bc-4ded-872a-9a977c9a0904.png)
