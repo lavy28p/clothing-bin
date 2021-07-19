@@ -88,6 +88,7 @@ const Product = new Schema(
 | Backend setup | H| 3hrs| 
 | CRUD operations | H | 3hrs|  
 | Deploy in MongoDb | H | 1hrs|  
+| Deploy API in Heroku | H | 2hrs|
 | Frontend setup | H | 5hrs|
 | Work on Links | H | 2hrs|
 | Deploy in Netlify | M| 2hrs| 
@@ -96,4 +97,4 @@ const Product = new Schema(
 | Post MVP features | M | 4hrs|
 | General Research | M | 3hrs|
 | Add additional CSS look and feel to all components | M | 3hrs| 
-| Total | H | 42hrs| 
+| Total | H | 44hrs| 
