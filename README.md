@@ -82,7 +82,7 @@ const Product = new Schema(
 ## Timeframes
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --------- | :------: | :------------: | :-----------: | :---------: |
-| Initial layout setup | H | 2hrs| 
+| Initial layout setup | H | 3hrs| 
 | Auth functionality | H| 4hrs| 
 | Auth functionality restrictions for user | H| 2hrs| 
 | Backend setup | H| 3hrs| 
@@ -97,4 +97,4 @@ const Product = new Schema(
 | Post MVP features | M | 4hrs|
 | General Research | M | 3hrs|
 | Add additional CSS look and feel to all components | M | 3hrs| 
-| Total | H | 44hrs| 
+| Total | H | 45hrs| 
