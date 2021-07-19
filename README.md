@@ -29,6 +29,9 @@ const Product = new Schema(
 
 ![image](https://user-images.githubusercontent.com/84349667/126210996-d7639675-c9bc-4ded-872a-9a977c9a0904.png)
 
+![image](https://user-images.githubusercontent.com/84349667/126211673-b4cfc1ae-6a4e-4f22-8ac0-074fd7111938.png)
+
+
 # Overview
 # MVP
 # Post-MVP
