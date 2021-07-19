@@ -39,8 +39,7 @@ const Product = new Schema(
 
 ![image](https://user-images.githubusercontent.com/84349667/126213395-0a80bba5-79e3-4b53-afd8-94fb3ed6ff7a.png)
 
-
-
+![image](https://user-images.githubusercontent.com/84349667/126213997-c70a3c0d-3597-43df-9bbf-21699228f97d.png)
 
 
 
