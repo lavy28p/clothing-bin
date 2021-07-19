@@ -1,5 +1,5 @@
 # clothing-bin
-Clothing BIN website supports independent fashion designers to sell their products. The app makes the whole process easy by helping users connect directly with makers to find something extraordinary
+
 
 # Schema
 
@@ -44,5 +44,8 @@ const Product = new Schema(
 
 
 # Overview
+
+Clothing BIN website supports independent fashion designers to sell their products. The app makes the whole process easy by helping users connect directly with makers to find something extraordinary
+
 # MVP
 # Post-MVP
