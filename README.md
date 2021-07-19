@@ -1,2 +1,2 @@
 # clothing-bin
-clothnclothing-bin
+clothing-bin
