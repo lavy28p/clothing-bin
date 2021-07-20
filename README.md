@@ -31,7 +31,10 @@ const Product = new Schema(
 # Figma 
 https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 
-# Whimsical Diagram
+# Component Hierarchy
+
+![image](https://user-images.githubusercontent.com/84349667/126351038-7acdead6-1d00-4ced-b34b-4ff60d08cf22.png)
+
 
 # Wireframe
 
