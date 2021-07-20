@@ -11,7 +11,7 @@ SignUp/Signin Schema for User
 ```JSON
 const user = new User({
       email,
-      password,
+      password_digest,
     })
 ```
     
