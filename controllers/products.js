@@ -11,8 +11,8 @@ export const getProducts = async (req, res) => {
 
 export const getProduct = async (req, res) => {
   try {
-    const { _id } = req.params
-    const product = await Product.findById(_id).populate('userId')
+    const { id } = req.params
+    const product = await Product.findById(id).populate('userId')
     if (product) {
       res.json(product)
     }
