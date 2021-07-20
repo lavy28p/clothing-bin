@@ -5,6 +5,6 @@ const router = Router()
 
 router.get('/', (req, res) => res.send('This is the api root!'))
 
-router.get('/', productsRoutes)
+router.use('/', productsRoutes)
 
 export default router
