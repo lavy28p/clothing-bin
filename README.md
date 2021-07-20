@@ -73,7 +73,8 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 # Post-MVP
 
 1. Add more CSS styling
-2. On signup page, add functionality to confirm password
+2. Search and sort on products page
+3. On signup page, add functionality to confirm password
 
 ## Project Schedule
 |  Day  | Deliverable | Status |
