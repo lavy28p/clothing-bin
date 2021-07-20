@@ -33,7 +33,7 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 
 # Component Hierarchy
 
-![image](https://user-images.githubusercontent.com/84349667/126351038-7acdead6-1d00-4ced-b34b-4ff60d08cf22.png)
+![image](https://user-images.githubusercontent.com/84349667/126351734-13cf68d0-0fbd-45c4-9eab-e04a664a3c35.png)
 
 
 # Wireframe
