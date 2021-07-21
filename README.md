@@ -56,14 +56,15 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 
 # MVP
 
-1. Complete Auth functionality:
+1. Complete Backend functionality: 
+   - Setup MongoDB data base 
+   - Complete CRUD operations
+2. Complete Auth functionality:
    - Complete authentication for signup
    - Complete authentication for signin
    - Complete restriction for users to perform CRUD
-2. Complete Backend functionality: 
-   - Setup MongoDB data base and complete CRUD operations
-   - Complete the API deployment in Heroku 
-3. Complete Frontend functionality:
+3. Deploy API to Heroku (Heroku url: "https://clothing-bin.herokuapp.com/api/products")
+4. Complete Frontend functionality:
    - Complete proper links to all pages
    - Render data on all pages
    - Allow user to add data on required pages 
@@ -79,10 +80,10 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 ## Project Schedule
 |  Day  | Deliverable | Status |
 |-------|-------------| -------|
-|July 19| Design / Wireframes/ Timeframes | Pending
-|July 19| Project Approval | Pending
-|July 20| Work with Auth functionality | Not Started
-|July 21| Work with Backend setup and functionality| Not Started
+|July 19| Design / Wireframes/ Timeframes | Done
+|July 20| Project Approval | Done
+|July 20| Work with Backend setup and functionality| Done
+|July 21| Work with Auth functionality | Done
 |July 22| Work with Frontend setup and functionality | Not Started
 |July 26| MVP  | Not Started          
 |July 28| Presentations/Project Submission | Not Started
@@ -92,11 +93,11 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --------- | :------: | :------------: | :-----------: | :---------: |
 | Initial layout setup | H | 3hrs| 
-| Auth functionality | H| 4hrs| 
-| Auth functionality restrictions for user | H| 2hrs| 
 | Backend setup | H| 3hrs| 
 | CRUD operations | H | 3hrs|  
-| Deploy in MongoDb | H | 1hrs|  
+| Deploy in MongoDb | H | 1hrs| 
+| Auth functionality | H| 4hrs| 
+| Auth functionality restrictions for user | H| 2hrs| 
 | Deploy API in Heroku | H | 2hrs|
 | Frontend setup | H | 5hrs|
 | Work on Links | H | 2hrs|
