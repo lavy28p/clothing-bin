@@ -8,7 +8,6 @@ function ProductCards() {
   useEffect(() => {
     const fetchProducts = async () => {
       const allProducts = await getProducts();
-      console.log(allProducts);
       setProducts(allProducts);
     }
     fetchProducts();
