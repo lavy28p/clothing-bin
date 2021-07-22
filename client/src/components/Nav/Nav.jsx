@@ -1,3 +1,4 @@
+import './Nav.css'
 import { NavLink } from 'react-router-dom';
 
 const unauthenticatedOptions = (
@@ -17,7 +18,7 @@ const Nav = ({ user }) => {
     return (
         <nav>
             <div className="nav">
-                <NavLink className="logo" to="/">C&B</NavLink>
+                <NavLink className="logo" to="/">CB</NavLink>
                 <div className="nav-links">
                         {user && <div className="link welcome">Welcome, {user.username}</div>}
                         {user ? authenticatedOptions : unauthenticatedOptions}

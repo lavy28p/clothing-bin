@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Rakkas&family=Yatra+One&display=swap');
+
+
+.logo {
+  font-family: 'Yatra One', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  max-width: 40vw;
+}
+
+
