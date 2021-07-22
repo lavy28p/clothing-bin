@@ -33,7 +33,7 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 
 # Component Hierarchy
 
-![image](https://user-images.githubusercontent.com/84349667/126355123-4acce6df-1afc-4a20-a420-7dffad7510e6.png)
+![image](https://user-images.githubusercontent.com/84349667/126644458-9a40f7ff-39c5-4e4a-b4a0-e3815f88c568.png)
 
 
 # Wireframe
@@ -84,7 +84,7 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 |July 20| Project Approval | Done
 |July 20| Work with Backend setup and functionality| Done
 |July 21| Work with Auth functionality | Done
-|July 22| Work with Frontend setup and functionality | Not Started
+|July 22| Work with Frontend setup and functionality | Started
 |July 26| MVP  | Not Started          
 |July 28| Presentations/Project Submission | Not Started
 
