@@ -3,6 +3,15 @@ import api from "./apiConfig";
 export const getProducts = async () => {
   try {
     const resp = await api.get('/products')
+    return resp.data
+  } catch (error) {
+    throw error;
+  }
+}
+
+export const getProduct = async (id) => {
+  try {
+    const resp = await api.get(`/products/${id}`)
     console.log(resp.data)
     return resp.data
   } catch (error) {
