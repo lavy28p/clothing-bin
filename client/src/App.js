@@ -6,6 +6,7 @@ import SignIn from "./screens/SignIn/SignIn";
 import Products from "./screens/Products/Products";
 import DetailProduct from './screens/DetailProduct/DetailProduct';
 import EditProduct from './screens/EditProduct/EditProduct';
+import SignOut from "./screens/SignOut/SignOut";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { verifyUser } from './services/users'
 
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route path="/products/:id/edit">
           {user ? <EditProduct user={user} /> : <Redirect to='/' />}
+        </Route>
+        <Route path="/sign-out">
+          <SignOut setUser={setUser} />
         </Route>
       </Switch>
     </div>

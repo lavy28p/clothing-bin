@@ -15,6 +15,7 @@ const authenticatedOptions = (
 )
 
 const Nav = ({ user }) => {
+  console.log(`user: ${user}`)
     return (
         <nav>
             <div className="nav">
