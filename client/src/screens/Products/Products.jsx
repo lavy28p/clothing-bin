@@ -19,7 +19,7 @@ const Products = (props) => {
   )
   
   return (
-    <Layout>
+    <Layout user={props.user}>
       <h1>Products Page</h1>
       <div className="products">
         {PRODUCTS}
