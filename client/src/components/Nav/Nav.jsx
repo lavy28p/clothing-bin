@@ -21,9 +21,8 @@ const Nav = ({ user }) => {
             <div className="nav">
                 <NavLink className="logo" to="/">CB</NavLink>
                 <div className="nav-links">
-                        {user && <div className="link welcome">Welcome, {user.username}</div>}
-                        {user ? authenticatedOptions : unauthenticatedOptions}
-                    </div>
+                  {user ? authenticatedOptions : unauthenticatedOptions}
+                </div>
                 <div className="nav-text">
                   Up to 60% off
                   New markdowns added!
