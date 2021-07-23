@@ -18,6 +18,15 @@ export const getProduct = async (id) => {
   }
 }
 
+export const addProduct = async product => {
+  try {
+      const res = await api.post('/products', product)
+      return res.data
+  } catch (error) {
+      throw error
+  }
+}
+
 export const updateProduct = async (id, product) => {
   try {
       const resp = await api.put(`/products/${id}`, product)

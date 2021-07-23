@@ -4,6 +4,7 @@ import Home from "./screens/Home/Home";
 import SignUp from "./screens/SignUp/SignUp";
 import SignIn from "./screens/SignIn/SignIn";
 import Products from "./screens/Products/Products";
+import AddProduct from "./screens/AddProduct/AddProduct";
 import DetailProduct from './screens/DetailProduct/DetailProduct';
 import EditProduct from './screens/EditProduct/EditProduct';
 import SignOut from "./screens/SignOut/SignOut";
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route exact path = "/products">
           <Products user={user}/>
+        </Route>
+        <Route path="/add-product">
+          {user ? <AddProduct user={user} /> : <Redirect to="/sign-up" />}
         </Route>
         <Route exact path = "/products/:id">
           <DetailProduct user={user}/>
