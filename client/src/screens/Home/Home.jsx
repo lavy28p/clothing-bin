@@ -7,7 +7,6 @@ function Home(props) {
 
   return (
     <div className="home">
-      <h1>Home Page</h1>
       <Layout user={props.user}>
       <div className="home-layout">
         <ProductCards />      
