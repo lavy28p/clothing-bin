@@ -37,7 +37,7 @@ function App() {
           <Products user={user}/>
         </Route>
         <Route exact path = "/products/:id">
-          <DetailProduct/>
+          <DetailProduct user={user}/>
         </Route>
         <Route path="/products/:id/edit">
           {user ? <EditProduct user={user} /> : <Redirect to='/' />}
