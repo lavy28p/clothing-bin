@@ -19,7 +19,7 @@ function App() {
       user ? setUser(user) : setUser(null)
     }
     fetchUser()
-  });
+  }, []);
 
   return (
     <div className="App">

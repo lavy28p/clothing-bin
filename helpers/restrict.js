@@ -1,10 +1,11 @@
 import jwt from 'jsonwebtoken'
 const TOKEN_KEY = process.env.TOKEN_KEY || 'tryingalonglongkey'
 
+
 const restrict = (req, res, next) => {
-  try {
+  try{
     const token = req.headers.authorization.split(' ')[1]
-    if (jwt.verify(token, TOKEN_KEY)) {
+    if(jwt.verify(token, TOKEN_KEY)) {
       next()
     }
   } catch (error) {
