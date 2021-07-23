@@ -35,11 +35,8 @@ const EditProduct = (props) => {
   }
 
   const handleSubmit = async (event) => {
-    console.log("in handle submit1")
     event.preventDefault()
-    console.log("in handle submit2")
     const update = await updateProduct(id, product)
-    console.log("in handle submit3")
     console.log(update)
     setUpdated(update)
   }
