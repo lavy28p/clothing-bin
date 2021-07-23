@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { getProducts } from "../../services/products";
 import Layout from "../../components/Layout/Layout";
 import Product from "../../components/Product/Product";
@@ -21,6 +22,12 @@ const Products = (props) => {
   return (
     <Layout user={props.user}>
       <h1>Products Page</h1>
+      <h3>Bodycon Dresses</h3>
+      <div className="add-container">  
+          <Link className="add-link" to={`/add-product`}>
+            Add More
+          </Link>
+        </div>
       <div className="products">
         {PRODUCTS}
       </div>
