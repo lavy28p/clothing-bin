@@ -2,18 +2,19 @@
 import ProductCards from "../../components/ProductCards/ProductCards";
 import Layout from "../../components/Layout/Layout";
 import { Link } from "react-router-dom";
+import './Home.css'
 
 function Home(props) {
 
   return (
-    <div className="home">
+    <div className="home-container">
       <Layout user={props.user}>
       <div className="home-layout">
         <ProductCards />      
       </div>
       <button className="shop-button-container">
-        <Link className="shop-button" to={`/products`}>
-          SHOP NOW
+        <Link className="shop-button-link" to={`/products`}>
+          Shop now
         </Link>
       </button>
     </Layout>
