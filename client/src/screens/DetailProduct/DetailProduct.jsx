@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, Link, Redirect} from "react-router-dom";
 import { getProduct, deleteProduct } from "../../services/products";
 import Layout from "../../components/Layout/Layout";
+import './DetailProduct.css';
 
 const DetailProduct = (props) => {
   const [productDetail, setProductDetail] = useState([]);
@@ -42,13 +43,13 @@ const DetailProduct = (props) => {
         <div className="edit-button-container"> 
           <button className="edit-button">
             <Link className="edit-button-link" to={`/products/${productDetail._id}/edit`}>
-              EDIT
+              Edit
             </Link>
           </button>        
         </div>
         <div className="delete-button-container">
           <button className="delete-button" onClick={handleSubmit}>
-            DELETE
+            Delete
           </button> 
         </div>
       </div>     

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Layout from "../../components/Layout/Layout";
 import { signIn } from "../../services/users";
 import { useHistory } from "react-router-dom";
+import './SignIn.css';
 
 const SignIn = (props) => {
   const history = useHistory();
@@ -33,14 +34,17 @@ const SignIn = (props) => {
 
   return(
     <Layout user={props.user}>
-      <small>Become a Member — design your own style to sell here.</small>
-      <form onSubmit={onSignIn}>
-        <label>Email*</label>
-        <input required type="text" name="email" value={email} onChange={handleChange} />
-        <label>Password*</label>
-        <input required type="password" name="password" value={password} onChange={handleChange} />
-        <button type="submit">SIGN IN</button>
-      </form>
+      <div className="signin-container">
+        <div className = "signin-heading" >Sign in</div>
+        <small>Become a Member — design your own style to sell here.</small>
+        <form onSubmit={onSignIn}>
+          <label className = "signin-label">Email<span className = "signin-label-char">*</span></label>
+          <input className = "signin-input" required type="text" name="email" value={email} onChange={handleChange} />
+          <label className = "signup-label">Password<span className = "signin-label-char">*</span></label>
+          <input className = "signin-input" required type="password" name="password" value={password} onChange={handleChange} />
+          <button className= "signin-button" type="submit">SIGN IN</button>
+        </form>
+      </div>
     </Layout>
     
   )

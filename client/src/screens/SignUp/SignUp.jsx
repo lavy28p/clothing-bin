@@ -2,6 +2,7 @@ import { useState } from "react";
 import { signUp } from "../../services/users";
 import Layout from "../../components/Layout/Layout";
 import { useHistory } from 'react-router-dom';
+import './SignUp.css';
 
 const SignUp = (props) => {
   const history = useHistory();
@@ -38,15 +39,15 @@ const SignUp = (props) => {
   
   return (
     <Layout>
-      <div className="form-container">
-        <h2>BECOME A MEMBER</h2>
-        <small>Become a Member — design your own style to sell here.</small>
+      <div className="signup-container">
+        <div className = "signup-heading" >Become a member</div>
+        <small>Become a Member — design your own style to sell here!</small>
         <form onSubmit={onSignUp}>
-          <label>Email*</label>
-          <input required type='email' name='email' value={email} onChange={handleChange}/>
-          <label>Create a password*</label>
-          <input required name='password' value={password} type='password' onChange={handleChange}/>
-          <button type="submit">BECOME A MEMBER</button>
+          <label className = "signup-label">Email<span className = "signup-label-char">*</span></label>
+          <input className = "signup-input" required type='email' name='email' value={email} onChange={handleChange}/>
+          <label className = "signup-label">Create a password<span className = "signup-label-char">*</span></label>
+          <input className = "signup-input" required name='password' value={password} type='password' onChange={handleChange}/>
+          <button className= "signup-button" type="submit">Become a member</button>
         </form>
       </div>
     </Layout>
