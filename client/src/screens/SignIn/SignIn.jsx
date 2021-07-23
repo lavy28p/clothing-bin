@@ -33,13 +33,12 @@ const SignIn = (props) => {
 
   return(
     <Layout user={props.user}>
-      <h3>Sign in</h3>
       <small>Become a Member — design your own style to sell here.</small>
       <form onSubmit={onSignIn}>
         <label>Email*</label>
         <input required type="text" name="email" value={email} onChange={handleChange} />
         <label>Password*</label>
-        <input required type="text" name="password" value={password} onChange={handleChange} />
+        <input required type="password" name="password" value={password} onChange={handleChange} />
         <button type="submit">SIGN IN</button>
       </form>
     </Layout>

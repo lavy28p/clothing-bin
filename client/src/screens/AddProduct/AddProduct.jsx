@@ -32,7 +32,8 @@ const AddProduct = (props) => {
 
   return (
     <Layout user={props.user}>
-      <h1>Add Page</h1>
+      <h1>Add Your New Dress</h1>
+      <small>Design you own and sell here!!</small>
       <form className="add-form" onSubmit={handleSubmit}>
         <label>Name*</label>
         <input className = "add-name" value={product.name} name='name' required autoFocus onChange={handleChange} />
