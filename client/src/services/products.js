@@ -27,3 +27,12 @@ export const updateProduct = async (id, product) => {
       throw error
   }
 }
+
+export const deleteProduct = async id => {
+  try {
+      const res = await api.delete(`/products/${id}`)
+      return res.data
+  } catch (error) {
+      throw error
+  }
+}
