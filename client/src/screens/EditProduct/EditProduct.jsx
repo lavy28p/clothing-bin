@@ -15,6 +15,7 @@ const EditProduct = (props) => {
   const[updated, setUpdated] = useState(false)
   let { id } = useParams()
 
+
   useEffect(() => {
     const fetchProduct = async () => {
       const product = await getProduct(id)
@@ -31,13 +32,11 @@ const EditProduct = (props) => {
       ...product,
       [name]: value,
     })
-    console.log(product)
   }
 
   const handleSubmit = async (event) => {
     event.preventDefault()
     const update = await updateProduct(id, product)
-    console.log(update)
     setUpdated(update)
   }
 
@@ -52,7 +51,9 @@ const EditProduct = (props) => {
         <img className="product-edit-image" src={product.imageURL} alt={product.name}/>
         <form className="edit-form" onSubmit={handleSubmit}>
           <input className="edit-name" placeholder="Name" value={product.name} name="name" required autoFocus onChange={handleChange}/>
+          <input className="edit-price" placeholder="Price" value={product.price} name="price" required autoFocus onChange={handleChange}/>
           <input className="edit-description" placeholder="Description" value={product.description} name="description" required autoFocus onChange={handleChange}/>
+          <input className="edit-image" placeholder="Image" value={product.imageURL} name="imageURL" required autoFocus onChange={handleChange}/>
           <button type="submit" className="save-button">
             SAVE
           </button>

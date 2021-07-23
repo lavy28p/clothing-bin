@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
-import { getProduct } from "../../services/products";
+import { useParams, Link, Redirect} from "react-router-dom";
+import { getProduct, deleteProduct } from "../../services/products";
 import Layout from "../../components/Layout/Layout";
 
 const DetailProduct = (props) => {
   const [productDetail, setProductDetail] = useState([]);
   const [loaded, setLoaded] = useState(false);
   const { id } = useParams();
+  const[deleted, setDeleted] = useState(false)
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -19,6 +20,16 @@ const DetailProduct = (props) => {
 
   if (!loaded) {
     return <h1>Loading...</h1>
+  }
+
+  const handleSubmit = async (event) => {
+    event.preventDefault()
+    const productDelete = await deleteProduct(productDetail._id)
+    setDeleted(productDelete)
+  }
+
+  if(deleted) {
+    return <Redirect to={`/products`}/>
   }
 
   return(
@@ -37,7 +48,7 @@ const DetailProduct = (props) => {
           </button>        
         </div>
         <div className="delete-button-container">
-          <button className="delete-button">
+          <button className="delete-button" onClick={handleSubmit}>
             DELETE
           </button> 
         </div>
