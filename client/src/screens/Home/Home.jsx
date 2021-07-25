@@ -7,16 +7,19 @@ import './Home.css'
 function Home(props) {
 
   return (
-    <div className="home-container">
+    <div className="home-layout">
       <Layout user={props.user}>
-      <div className="home-layout">
-        <ProductCards />      
+      <div className="home-container">
+        <h3 className="home-text">Trending right now</h3>
+        <div className="home-products">
+          <ProductCards />      
+        </div>
+        <button className="shop-button-container">
+            <Link className="shop-button-link" to={`/products`}>
+              Shop now
+            </Link>
+        </button>
       </div>
-      <button className="shop-button-container">
-        <Link className="shop-button-link" to={`/products`}>
-          Shop now
-        </Link>
-      </button>
     </Layout>
     </div>
   )

@@ -1,14 +1,23 @@
 .layout {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  background-color: lightpink;
+}
+
+.layout-nav {
+  flex: 1;
+  padding: 50px 100px 0 100px;
 }
 
 .layout-children {
   flex: 2;
+  padding: 100px 100px 100px 100px;
+}
+
+.layout-footer {
+  flex: 3;
   padding: 100px;
-  background-color: lightgrey;
+  background-color: #9B9294;
 }
 
 @media (max-width: 500px) {
@@ -17,6 +26,7 @@
       display: flex;
       flex-direction: column;
   }
+
   .layout-children {
       width: 80vw;
       padding: 0px;

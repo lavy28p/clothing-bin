@@ -1,14 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Rakkas&family=Yatra+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Rakkas&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
 
-
-.logo {
-  font-family: 'Yatra One', cursive;
-  text-align: center;
-  font-weight: bold;
-  font-size: 60px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  max-width: 40vw;
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
+.logo {
+  flex: 1;
+  font-family: "Kalam", cursive;
+  font-weight: bold;
+  font-size: 70px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 45%;
+  color: #4d4547;
+}
 
+.nav-links {
+  flex: 2;
+  text-align: center;
+  font-family: Rokkitt;
+  padding-top: 10px;
+  padding-bottom: 0;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#signin-link {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+}
+
+.nav-text {
+  flex: 3;
+  background-color: #bea5ab;
+  height: 10vh;
+  text-align: center;
+  padding: 12px 10px 10px 10px;
+  font-size: 20px;
+  font-family: Rokkitt;
+}
