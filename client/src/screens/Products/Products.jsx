@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { getProducts } from "../../services/products";
 import Layout from "../../components/Layout/Layout";
 import Product from "../../components/Product/Product";
+import './Products.css';
 
 const Products = (props) => {
   const [products, setProducts] = useState([])
@@ -16,7 +17,7 @@ const Products = (props) => {
   },[])
 
   const PRODUCTS = products.map((product) => 
-    <Product _id={product._id} name={product.name} imageURL={product.imageURL} key={product._id}/>
+    <Product _id={product._id} name={product.name} price={product.price} imageURL={product.imageURL} key={product._id}/>
   )
   
   return (
@@ -27,7 +28,7 @@ const Products = (props) => {
             Add More
           </Link>
         </div>
-      <div className="products">
+      <div className="products-container">
         {PRODUCTS}
       </div>
     </Layout>
