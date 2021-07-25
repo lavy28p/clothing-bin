@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { getProducts } from "../../services/products"
 import ProductCard from '../ProductCard/ProductCard'
+import './ProductCards.css'
 
 function ProductCards() {
   const [products, setProducts] = useState([]);
@@ -21,7 +22,7 @@ function ProductCards() {
   )
 
   return(
-    <div>
+    <div className="cards-layout">
       {CARDS}
     </div>
   )
