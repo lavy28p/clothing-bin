@@ -1,0 +1,21 @@
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.product-image {
+  width: 355px;
+  height: 500px;
+}
+
+.product-name {
+  font-size: 20px;
+}
+.product-price {
+  font-size: 15px
+}
