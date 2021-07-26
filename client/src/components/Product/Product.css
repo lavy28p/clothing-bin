@@ -15,6 +15,11 @@
   height: 500px;
 }
 
+.product-image:hover {
+  transform: scale(0.99);
+  opacity: .9;
+}
+
 .product-name {
   font-size: 13px;
   font-weight: 550;
