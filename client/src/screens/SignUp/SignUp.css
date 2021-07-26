@@ -113,3 +113,28 @@ small {
 .signup-button:hover {
   opacity: 0.9;
 }
+
+
+@media (max-width: 1024px) {
+  .signup-label-password {
+    position: relative;
+    right: 2%;
+  }
+
+  .signup-label-email {
+    position: relative;
+    right: 2%;
+  }
+}
+
+@media (max-width: 800px) {
+  .signup-label-password {
+    position: relative;
+    right: 2%;
+  }
+
+  .signup-label-email {
+    position: relative;
+    right: 2%;
+  }
+}
