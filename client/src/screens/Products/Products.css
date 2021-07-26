@@ -1,5 +1,26 @@
+.products-link-layout {
+  position: relative;
+}
+
+.products-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.add-link {
+  text-decoration: none;
+  color: #000000;
+  font-family: Rokkitt;
+  position: absolute;
+  top: 20px;
+  left: 201px;
+  font-size: 20px;
+}
+
 .products-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

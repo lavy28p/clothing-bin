@@ -41,6 +41,16 @@
   position: absolute;
   top: 0px;
   right: -20px;
+  font-weight: 500;
+  text-decoration:underline;
+}
+
+#signout-link {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 .nav-text {

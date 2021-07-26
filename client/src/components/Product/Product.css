@@ -6,6 +6,8 @@
   justify-content: center;
   position: relative;
   cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 25px;
 }
 
 .product-image {
@@ -14,8 +16,11 @@
 }
 
 .product-name {
-  font-size: 20px;
+  font-size: 13px;
+  font-weight: 550;
 }
 .product-price {
-  font-size: 15px
+  font-size: 13px;
+  padding-bottom: 30px;
+  font-weight:550;
 }
