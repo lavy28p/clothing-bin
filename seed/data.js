@@ -7,6 +7,18 @@ const insertData = async () => {
 
   const products = [
     {
+      "name": "Shirt Dress",
+      "price": "$29.99",
+      "imageURL": "https://i.imgur.com/o0PB5OP.jpg",
+      "description": "Short, straight-cut shirt dress in washed cotton denim. Collar, yoke at back, and chest pockets with flap. Long sleeves with sleeve plackets and cuffs. Contrasting snap fasteners at front, at cuffs, and on pockets. Gently rounded hem."
+    },
+    {
+      "name": "Black/gingham checked",
+      "price": "$12.99",
+      "imageURL": "https://i.imgur.com/tyQbqN4.jpg",
+      "description": "Short, fitted dress in thick, textured jersey. Double, extra-narrow shoulder straps, subtle sweetheart neckline, and a short slit at one side."
+    },
+    {
       "name": "Satin Dress",
       "price": "$59.99",
       "imageURL": "https://i.imgur.com/0Kaphcb.jpg",
