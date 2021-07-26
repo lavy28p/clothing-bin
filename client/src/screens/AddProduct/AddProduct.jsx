@@ -2,7 +2,7 @@ import { useState } from "react";
 import Layout from "../../components/Layout/Layout";
 import { Redirect } from "react-router-dom";
 import { addProduct } from "../../services/products";
-import "./AddProduct.css";
+import './AddProduct.css';
 
 const AddProduct = (props) => {
   const [product, setProduct] = useState({
@@ -12,7 +12,6 @@ const AddProduct = (props) => {
     imageURL: "",
   });
   const [added, setAdded] = useState(false);
-  
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -38,9 +37,7 @@ const AddProduct = (props) => {
         <div className="add-heading">Add Your New Dress</div>
         <small>Design you own and sell here!!</small>
         <form className="add-form-container" onSubmit={handleSubmit}>
-          <label className="add-label-name">
-            Name<span className="add-label-char">*</span>
-          </label>
+          <label className="add-label-name">Name<span className="add-label-char">*</span></label>
           <input
             className="add-input-name"
             value={product.name}
@@ -49,9 +46,7 @@ const AddProduct = (props) => {
             autoFocus
             onChange={handleChange}
           />
-          <label className="add-label-price">
-            Price<span className="add-label-char">*</span>
-          </label>
+          <label className="add-label-price">Price<span className="add-label-char">*</span></label>
           <input
             className="add-input-price"
             value={product.price}
@@ -59,9 +54,7 @@ const AddProduct = (props) => {
             required
             onChange={handleChange}
           />
-          <label className="add-label-image">
-            Image<span className="add-label-char">*</span>
-          </label>
+          <label className="add-label-image">Image<span className="add-label-char">*</span></label>
           <input
             className="add-input-image"
             value={product.imageURL}
@@ -69,9 +62,7 @@ const AddProduct = (props) => {
             required
             onChange={handleChange}
           />
-          <label className="add-label-description">
-            Description<span className="add-label-char">*</span>
-          </label>
+          <label className="add-label-description">Description<span className="add-label-char">*</span></label>
           <textarea
             className="add-input-description"
             value={product.description}
@@ -79,11 +70,10 @@ const AddProduct = (props) => {
             required
             onChange={handleChange}
           />
-
           <div className="add-button-container">
-            <button type="submit" className="add-button">
-              Add to sell list
-            </button>
+          <button type="submit" className="add-button">
+            Add to sell list
+          </button>
           </div>
         </form>
       </div>
