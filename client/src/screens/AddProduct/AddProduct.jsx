@@ -33,11 +33,11 @@ const AddProduct = (props) => {
 
   return (
     <Layout user={props.user}>
-      <div className=".add-product-container">
+      <div className="add-product-container">
         <div className="add-heading">Add Your New Dress</div>
         <small>Design you own and sell here!!</small>
         <form className="add-form-container" onSubmit={handleSubmit}>
-          <label className="add-label-name">Name*</label>
+          <label className="add-label-name">Name<span className="add-label-char">*</span></label>
           <input
             className="add-input-name"
             value={product.name}
@@ -46,7 +46,7 @@ const AddProduct = (props) => {
             autoFocus
             onChange={handleChange}
           />
-          <label className="add-label-price">Price*</label>
+          <label className="add-label-price">Price<span className="add-label-char">*</span></label>
           <input
             className="add-input-price"
             value={product.price}
@@ -54,7 +54,7 @@ const AddProduct = (props) => {
             required
             onChange={handleChange}
           />
-          <label className="add-label-image">Image*</label>
+          <label className="add-label-image">Image<span className="add-label-char">*</span></label>
           <input
             className="add-input-image"
             value={product.imageURL}
@@ -62,7 +62,7 @@ const AddProduct = (props) => {
             required
             onChange={handleChange}
           />
-          <label className="add-label-description">Description*</label>
+          <label className="add-label-description">Description<span className="add-label-char">*</span></label>
           <textarea
             className="add-input-description"
             value={product.description}
@@ -74,9 +74,7 @@ const AddProduct = (props) => {
           <button type="submit" className="add-button">
             Add to sell list
           </button>
-
           </div>
-          
         </form>
       </div>
     </Layout>
