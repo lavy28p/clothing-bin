@@ -37,12 +37,14 @@ const SignIn = (props) => {
       <div className="signin-container">
         <div className = "signin-heading" >Sign in</div>
         <small>Become a Member — design your own style to sell here.</small>
-        <form onSubmit={onSignIn}>
-          <label className = "signin-label">Email<span className = "signin-label-char">*</span></label>
-          <input className = "signin-input" required type="text" name="email" value={email} onChange={handleChange} />
-          <label className = "signup-label">Password<span className = "signin-label-char">*</span></label>
-          <input className = "signin-input" required type="password" name="password" value={password} onChange={handleChange} />
-          <button className= "signin-button" type="submit">SIGN IN</button>
+        <form className="signin-form-container" onSubmit={onSignIn}>
+          <label className = "signin-label-email">Email<span className = "signin-label-char">*</span></label>
+          <input className = "signin-input-email" required type="text" name="email" value={email} onChange={handleChange} />
+          <label className = "signin-label-password">Password<span className = "signin-label-char">*</span></label>
+          <input className = "signin-input-password" required type="password" name="password" value={password} onChange={handleChange} />
+          <div className="signin-button-container">
+            <button className= "signin-button" type="submit">Sign in</button>
+          </div>
         </form>
       </div>
     </Layout>
