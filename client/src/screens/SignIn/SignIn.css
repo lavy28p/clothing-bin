@@ -114,3 +114,27 @@ small {
 .signin-button:hover {
   opacity: 0.9;
 }
+
+@media (max-width: 1024px) {
+  .signin-label-password {
+    position: relative;
+    right: 2%;
+  }
+
+  .signin-label-email {
+    position: relative;
+    right: 2%;
+  }
+}
+
+@media (max-width: 800px) {
+  .signin-label-password {
+    position: relative;
+    right: 2%;
+  }
+
+  .signin-label-email {
+    position: relative;
+    right: 2%;
+  }
+}

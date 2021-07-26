@@ -156,3 +156,39 @@
 .save-button:hover {
   opacity: 0.9;
 }
+
+@media (max-width: 1024px) {
+  .product-edit-image {
+    width: 30vh;
+    height: 45vh;
+  }
+
+  .save-button-container {
+    width: 150%;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .product-edit-image {
+    width: 25vh;
+    height: 40vh;
+  }
+
+  .edit-heading-container {
+    padding-top: 0;
+    align-items: center;
+    width: 80%;
+    padding-left: 40px;
+  }
+
+  .edit-form-container {
+    height: 45vh;
+    align-items: center;
+  }
+
+  .save-button-container {
+    font-size: 12px;
+  }
+}

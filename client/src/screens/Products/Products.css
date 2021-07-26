@@ -24,3 +24,34 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+@media (max-width: 1024px) {
+  .products-name {
+    font-size: 25px;
+    position: static;
+    padding-left: 0;
+  }
+
+  .add-link {
+    position: static;
+  }
+
+  .products-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .products-name {
+    font-size: 25px;
+    position: static;
+    padding-left: 0;
+  }
+
+  .add-link {
+    position: static;
+  }
+
+}

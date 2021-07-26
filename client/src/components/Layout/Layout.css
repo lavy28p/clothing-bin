@@ -20,19 +20,28 @@
   background-color: #9B9294;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .layout {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
+    height: 20%;
   }
-
   .layout-children {
-      width: 80vw;
-      padding: 0px;
-      margin: 0px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    height: 60%;
+  }
+  .layout-footer {
+    font-size: 12px;
+    height: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  .layout {
+    height: 20%;
+  }
+  .layout-children {
+    height: 60%;
+  }
+  .layout-footer {
+    font-size: 12px;
+    height: 20%;
   }
 }
