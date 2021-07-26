@@ -30,7 +30,7 @@ const Products = (props) => {
     <Layout user={props.user}>
       <div className="products-link-layout">
         <div className="products-name">Dresses</div>
-        <div className="add-container">
+        <div className="add-link-container">
           <Link className="add-link" to={`/add-product`}>
             Sell your design here!
           </Link>
