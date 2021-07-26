@@ -26,7 +26,7 @@ const authenticatedOptions = (
     <NavLink className="link" to="/">
       Free shipping over $25 for members
     </NavLink>
-    <NavLink className="link" to="/sign-out">
+    <NavLink className="link" id="signout-link" to="/sign-out">
       Sign Out!
     </NavLink>
   </>
