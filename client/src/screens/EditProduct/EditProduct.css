@@ -1,3 +1,140 @@
+.product-edit-image {
+  float: left;
+  width: 480px;
+  height: 720px;
+}
+
+.product-edit-container {
+  text-align: center;
+  height: 65vh;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.edit-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding-bottom: 0px;
+  padding-top: 0;
+  height: 50vh;  
+}
+
+.edit-heading-container {
+  padding-top: 0;
+  padding-bottom: 50px;
+  width: 75%;
+}
+
+.edit-heading {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Rokkitt;
+  color: #222;
+  font-weight: bold;
+  width: 60%;
+}
+
+.edit-name-container {
+  padding-top: 0;
+  padding-bottom: 20px;
+  width: 75%;
+}
+
+.edit-name {
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: normal;
+  cursor: text;
+  font: 400 13.3333px Arial;
+  border: 1px solid #000000;
+  color: #222;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-size: 16px;
+  width: 80%;
+  height: 35px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 2s ease;
+}
+
+.edit-price-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 75%;
+}
+
+.edit-price {
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: normal;
+  cursor: text;
+  font: 400 13.3333px Arial;
+  border: 1px solid #000000;
+  color: #222;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-size: 16px;
+  width: 80%;
+  height: 35px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 2s ease;
+}
+
+.edit-description-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 75%;
+}
+
+.edit-description {
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: normal;
+  cursor: text;
+  font: 400 13.3333px Arial;
+  border: 1px solid #000000;
+  color: #222;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-size: 16px;
+  width: 80%;
+  height: 80px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 2s ease;
+}
+
+.edit-image-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 75%;
+}
+.edit-image {
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: normal;
+  cursor: text;
+  font: 400 13.3333px Arial;
+  border: 1px solid #000000;
+  color: #222;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-size: 16px;
+  width: 80%;
+  height: 35px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 2s ease;
+}
+
+.save-button-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 75%;
+
+}
+
 .save-button {
   background: #222 none;
   border: 1px solid #222;
@@ -12,7 +149,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: sans semi -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  width: 88px;
+  width: 15%;
   font-style: normal;
 }
 
