@@ -12,6 +12,7 @@ const AddProduct = (props) => {
     imageURL: "",
   });
   const [added, setAdded] = useState(false);
+  
 
   const handleChange = (event) => {
     const { name, value } = event.target;
