@@ -1,12 +1,15 @@
 .signup-container {
   text-align: center;
+  height: 50vh;;
 }
 
 .signup-heading {
   font-size: 20px;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
   text-transform: uppercase;
-  font-family: sans semi -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Rokkitt;
   color: #222;
   font-weight: bold;
 }
@@ -17,26 +20,76 @@ small {
   color: #222;
 }
 
-.signup-label {
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  height: 60%;
+  padding: 1em;
+  align-items: center;
+}
+
+.signup-label-email {
   font-size: 13px;
   color: #222;
-  text-transform: none;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  position: relative;
+  right: 160px;
+  font-family: Rokkitt;
+}
+
+.signup-input-email {
+  word-spacing: normal;
+  cursor: text;
+  font: 400 13.3333px Arial;
+  border: 1px solid #000000;
+  color: #222;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-size: 16px;
+  width: 30%;
+  height: 35px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 2s ease;
+}
+
+.signup-label-password {
+  font-size: 13px;
+  font-weight: 600;
+  color: #222;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  position: relative;
+  right: 122px;
+  font-family: Rokkitt;
+}
+
+.signup-input-password {
+  word-spacing: normal;
+  cursor: text;
+  font: 400 13.3333px Arial;
+  border: 1px solid #000000;
+  color: #222;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-size: 16px;
+  width: 30%;
+  height: 35px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 2s ease;
 }
 
 .signup-label-char {
   color: #d6001c;
 }
 
-.signup-input {
-  word-spacing: normal;
-  cursor: text;
-  font: 400 13.3333px Arial;
-  border: 1px solid #d0d0d0;
-  color: #222;
-  box-sizing: border-box;
-  border-radius: 0;
-  font-size: 16px;
-  padding: 14px 25px 14px 10px;
+.signup-button-container {
+  padding-top: 60px;
+  width: 100%;
 }
 
 .signup-button {
@@ -46,15 +99,15 @@ small {
   cursor: pointer;
   box-sizing: border-box;
   text-shadow: none;
-  padding: 16px 16px 16px 16px;
   color: white;
   font-size: 15px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
   font-family: sans semi -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  width: 200px;
   font-style: normal;
+  width: 30%;
+  height: 35px;
 }
 
 .signup-button:hover {
