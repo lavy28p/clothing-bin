@@ -5,6 +5,10 @@
 
 Clothing BIN website supports independent fashion designers to sell their products. The app makes the whole process easy by helping users connect directly with makers to find something extraordinary
 
+# Figma 
+https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
+
+
 # Schema
 
 SignUp/Signin Schema for User
@@ -28,8 +32,7 @@ const Product = new Schema(
 )
 ```
 
-# Figma 
-https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
+
 
 # Component Hierarchy
 
@@ -63,7 +66,7 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
    - Complete authentication for signup
    - Complete authentication for signin
    - Complete restriction for users to perform CRUD
-3. Deploy API to Heroku (Heroku url: "https://clothing-bin.herokuapp.com/api/products")
+3. Deploy API to Heroku 
 4. Complete Frontend functionality:
    - Complete proper links to all pages
    - Render data on all pages
@@ -84,8 +87,8 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 |July 20| Project Approval | Done
 |July 20| Work with Backend setup and functionality| Done
 |July 21| Work with Auth functionality | Done
-|July 22| Work with Frontend setup and functionality | Started
-|July 26| MVP  | Not Started          
+|July 22| Work with Frontend setup and functionality | Done
+|July 26| MVP  | Done
 |July 28| Presentations/Project Submission | Not Started
 
 
@@ -108,3 +111,11 @@ https://www.figma.com/file/rs4Rkcs1TrpsW87tyjn4Mr/Clothing-Bin?node-id=1%3A58
 | General Research | M | 3hrs|
 | Add additional CSS look and feel to all components | M | 3hrs| 
 | Total | H | 45hrs| 
+
+## Heroku url:
+ https://clothing-bin.herokuapp.com/api/products
+
+
+## Netlify Url:
+https://determined-lamport-fc0f8c.netlify.app/
+
