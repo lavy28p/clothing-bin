@@ -9,7 +9,7 @@ function ProductCards() {
   useEffect(() => {
     const fetchProducts = async () => {
       const allProducts = await getProducts();
-      setProducts(allProducts);
+      setProducts(allProducts.reverse());
     }
     fetchProducts();
   },[])
